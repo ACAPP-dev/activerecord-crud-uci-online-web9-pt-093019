@@ -6,14 +6,14 @@
 # end                              # end
 
 def can_be_instantiated_and_then_saved
-  
+
 end
 
 def can_be_created_with_a_hash_of_attributes
   # Initialize movie and then and save it
-  
 
-  
+
+
 
 def can_be_created_in_a_block(args = {title: "Home Alone", release_date: 1990})
   # If no arguments are passed, use default values:
@@ -24,7 +24,7 @@ def can_be_created_in_a_block(args = {title: "Home Alone", release_date: 1990})
 end
 
 def can_get_the_first_item_in_the_database
-  
+
 end
 
 def can_get_the_last_item_in_the_database
@@ -50,7 +50,7 @@ end
 def can_find_using_where_clause_and_be_sorted
   # For this test return all movies released after 2002 and ordered by
   # release date descending
-  
+
 end
 
 def can_be_found_updated_and_saved
