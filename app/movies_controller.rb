@@ -6,8 +6,9 @@
 # end                              # end
 
 def can_be_instantiated_and_then_saved
-  m = Movie.new(attributes)
-  binding.pry
+  m = Movie.new
+  m.title = "This is a title."
+  #binding.pry
   m.save
   m
 end
