@@ -6,7 +6,8 @@
 # end                              # end
 
 def can_be_instantiated_and_then_saved
-
+  m = Movie.new
+  m.save
 end
 
 def can_be_created_with_a_hash_of_attributes
