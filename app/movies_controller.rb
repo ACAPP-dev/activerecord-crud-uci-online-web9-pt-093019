@@ -88,8 +88,10 @@ end
 
 def can_update_multiple_items_at_once
   # Change title of all movies to "A Movie"
-  movie_array = Movie.all
-  binding.pry
+  5.times do |i|
+    Movie.create(title: "Movie_#{i}", release_date: 2000+i)
+  end
+  Movie.update_all(title: "A Movie")
 end
 
 def can_destroy_a_single_item
