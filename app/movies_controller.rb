@@ -81,8 +81,9 @@ end
 def can_update_using_update_method
   # Update movie title to "Wat, huh?"
   #binding.pry
-  m = Movie.new
-  m = update(title: "Wat, huh?")
+  m = Movie.find_by(title: "Wat")
+  m.update(title: "Wat, huh?")
+  m
 end
 
 def can_update_multiple_items_at_once
