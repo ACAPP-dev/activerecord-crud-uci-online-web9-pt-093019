@@ -80,6 +80,7 @@ end
 
 def can_update_using_update_method
   # Update movie title to "Wat, huh?"
+  binding.pry
   Movie.update(title: "Wat, huh?")
 end
 
