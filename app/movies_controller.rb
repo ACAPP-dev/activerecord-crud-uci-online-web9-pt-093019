@@ -89,6 +89,7 @@ end
 def can_update_multiple_items_at_once
   # Change title of all movies to "A Movie"
   movie_array = Movie.all
+  binding.pry
 end
 
 def can_destroy_a_single_item
